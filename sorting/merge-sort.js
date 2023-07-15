@@ -39,3 +39,6 @@ const mergeSortFn = (arr) => {
 
 console.log(randorArr);
 console.log(mergeSortFn(randorArr));
+
+// Complexity: O(N log(N))
+// Extra memory: O(N) or O(1) for linked list
