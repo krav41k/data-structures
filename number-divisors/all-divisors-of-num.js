@@ -17,3 +17,8 @@ const findAllDivOfN = (n) => {
 }
 
 console.log(findAllDivOfN(81));
+
+// Complexity O(sqrt(N))
+
+// Square numbers has odd number of divisors
+// Non square number has even number of divis
