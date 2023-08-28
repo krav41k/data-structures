@@ -31,11 +31,11 @@ const findPath = (start, end) => {
     console.log(distances[end]);
     let shortestPath = end;
     let parent = end;
-    while (parent > 0) {
+    while (parent !== start) {
         parent = parents[parent];
         shortestPath += ' => ' + parent;
     }
     console.log(shortestPath);
 };
 
-findPath(2, 8);
+findPath(0, 8);
